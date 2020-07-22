@@ -95,6 +95,20 @@ header {
   display: block;
 }
 
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  displas: none;
+}
+
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
